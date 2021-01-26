@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <title>The Complete jQuery Course - Project Structure</title>
+</head>
+<body>
+  <div id="content">
+
+    <button id="btn-click">Click</button>
+    <button id="btn-hover">Hover</button>
+
+    <h1>The Complete jQuery Course - Project Structure</h1>
+
+    <div class="red-box">Red</div>
+    <div class="green-box">Green</div>
+    <div class="blue-box">Blue</div>
+    <div class="clear"></div>
+
+    <h2>Hi, I'm the Base Project!</h2>
+    <p data-mydata+"Some date here">Add elements here as you like to try <span>out jQuery</span>. This is your playground to test out anything that comes into your mind.</p>
+    <p><strong>OR:</strong> Copy this <a id="special-link" href="/url">project structure</a> into a new directory first to create separate playgrounds for animations, manipulations, event handlers etc.</p>
+
+    <div Id="pokemon-details"></div>
+    <div id="pokemon"></div>
+
+  <!--  <div class="gallery"> -->
+      <!--   <img src="images/laptop-mobile_small.jpg" alt=""> -->
+      <!--  <img src="images/laptop-on-table_small.jpg" alt=""> -->
+      <!--  <img src="images/people-office-group-team_small.jpg" alt=""> -->
+    <!-- </div>  -->
+
+  <!--  <ul id="list">
+        <li>Main item 1
+         <ul>
+            <li>Sub item 1</li>
+            <li>Sub item 2</li>
+        </ul></li>
+        <li>Main item 2
+         <ul>
+            <li>Sub item 1</li>
+            <li>Sub item 2</li>
+        </ul></li>
+        <li>Main item 3
+         <ul>
+            <li>Sub item 1</li>
+            <li>Sub item 2</li>
+        </ul></li>
+        <li>Main item 4
+        <ul>
+            <li>Sub item 1</li>
+            <li>Sub item 2</li>
+        </ul></li>
+    </ul> -->
+    <form id="form" action="">
+        <input id="name" type="text" placeholder="Enter your name">
+        <span id="name-feedback"></span><br>
+
+        <input id="password" type="password" placeholder="Enter a password">
+        <span id="password-feedback"></span><br>
+
+        <input id="amount" type="range"  min="1" max="9" value="5"><br>
+
+        <textarea  id="message" name="" id="" cols="30" rows="10"></textarea>
+        <span id="message-feedback"></span><br>
+
+        <input id="checkbox" type="checkbox" name="cb"><label for="cb">Check me</label>
+        <span id="checkbox-feedback"></span><br>
+
+        <input type="submit" value="Submit">
+    </form>
+  </div>
+  <div class="lightbox">
+      <h2>Lightbox</h>
+        <p>This is a paragraph.</p>
+        <form action="">
+            <input type="email" placeholder="Your best email">
+            <input type="submit" value="Sign me up">
+        </form>
+  </div>
+
+</body>
+</html>
